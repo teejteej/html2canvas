@@ -51,6 +51,8 @@ const parseDisplayValue = (display: string): Display => {
     switch (display) {
         case 'block':
             return DISPLAY.BLOCK;
+        case '-webkit-box':
+            return DISPLAY.BLOCK;
         case 'inline':
             return DISPLAY.INLINE;
         case 'run-in':
